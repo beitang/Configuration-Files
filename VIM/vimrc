@@ -1,3 +1,12 @@
 set shiftwidth=4
 set tabstop=4
 set dictionary=~/.cdict
+set textwidth=80
+
+"use :h fo-table for help information about formatoptions
+set fo=t
+
+set cindent
+
+"use :h comments for help information
+set comments=sl:/*,mb:*,elx:*/
