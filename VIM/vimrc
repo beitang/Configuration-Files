@@ -16,3 +16,8 @@ syntax on
 colorscheme desert
 
 set tags=./tags
+let Tlist_Ctags_Cmd='/usr/bin/ctags'
+let Tlist_Use_Right_Window=1 "show taglist window in right window
+let Tlist_Exit_OnlyWindown=1 "if taglist window is the only window, exit vim
+let Tlist_Show_One_File=0 "only show tags for current file
+let Tlist_File_Fold_Auto_Close=1 "only expand tags for current file, tags for other files are folded
