@@ -22,3 +22,5 @@ let Tlist_Exit_OnlyWindow=1 "if taglist window is the only window, exit vim
 let Tlist_Show_One_File=0 "only show tags for current file
 let Tlist_File_Fold_Auto_Close=1 "only expand tags for current file, tags for other files are folded
 let Tlist_Auto_Open=1
+
+setlocal spell spelllang=en_us
