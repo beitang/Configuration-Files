@@ -1,0 +1,4 @@
+[alias]
+	ci = commit
+	st = status
+	last = log -1 HEAD
